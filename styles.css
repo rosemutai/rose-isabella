@@ -3,3 +3,35 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin: 8px;
+}
+
+#navbar ul li{
+    list-style: none ;
+    margin: 16px 8px;
+
+
+}
+
+#introduction, #What_you_should_already_know,#JavaScript_and_Java,#Hello_world, #Variables, #Declaring_variables, #Variable_scope{
+    margin-bottom: 16px;
+}
+
+
+
+#navbar{
+    width: 20%;
+    padding: 6px;
+}
+
+#main-doc{
+    width: 80%;
+}
